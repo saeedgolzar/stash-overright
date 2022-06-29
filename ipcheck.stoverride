@@ -3,7 +3,7 @@ desc: 用于显示 IP 信息的面板
 
 tiles:
   - name: IPCheck-Tile
-    interval: 43200
+    interval: 7200
 
 script-providers:
   IPCheck-Tile:
