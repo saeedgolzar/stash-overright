@@ -18,7 +18,7 @@ $httpClient.get(url, function (error, response, data) {
   body = {
     title: "Node Information",
     content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
-    icon: "globe.asia.australia.fill",
+    icon: "mappin.circle.fill",
     backgroundColor: '#af52de',
   }
   $done(body);
