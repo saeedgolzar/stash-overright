@@ -16,10 +16,10 @@ $httpClient.get(url, function (error, response, data) {
   let isp = jsonData.isp
   let ip = jsonData.query
   body = {
-    title: "节点信息",
-    content: `IP信息：${ip}\n运营商：${isp}\n所在地：${emoji}${country} - ${city}`,
+    title: "Node Information",
+    content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
     icon: "globe.asia.australia.fill",
-    backgroundColor: '#0C9DFA',
+    backgroundColor: '#af52de',
   }
   $done(body);
 });
