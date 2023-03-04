@@ -17,7 +17,7 @@ $httpClient.get(url, function (error, response, data) {
   let ip = jsonData.query
   body = {
     title: "Node Information",
-    content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
+    content: `${ip}\n${isp}\n${country} - ${city} ${emoji}`,
     icon: "mappin.circle.fill",
     backgroundColor: '#af52de',
   }
