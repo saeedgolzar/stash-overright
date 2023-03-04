@@ -1,4 +1,4 @@
-name: IP Information Tile Panel
+name: IP Information Tile
 desc: Panel for displaying IP information (Stash 2.0)
 
 tiles:
