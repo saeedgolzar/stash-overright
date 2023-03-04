@@ -4,6 +4,8 @@ desc: Panel for displaying IP information (Stash 2.0)
 tiles:
   - name: IPCheck-Tile
     interval: 7200
+    icon: 'mappin.circle.fill'
+    backgroundColor: '#663399'
 
 script-providers:
   IPCheck-Tile:
