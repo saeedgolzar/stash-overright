@@ -5,7 +5,7 @@ tiles:
   - name: IPCheck-Tile
     interval: 7200
     icon: 'mappin.circle.fill'
-    backgroundColor: '#663399'
+    backgroundColor: '#af52de'
 
 script-providers:
   IPCheck-Tile:
